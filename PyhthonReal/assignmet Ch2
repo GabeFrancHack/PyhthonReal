@@ -1,0 +1,26 @@
+#program that asks for personal q1
+print("""Gabriel_Franc
+      3456 alonzo ave
+      8189308658
+      Engineering""")
+
+#mass to pounds program q3
+
+
+weight=float(input('enter weight of object in lbs:'))
+kg=float(weight * 0.454)
+print('the weight of the object is equal to',kg,'kgs' )
+
+#Speed of car q5
+
+MPH=int(70)
+t2=int(10)
+t3=int(15)
+t1=int(6)
+miles3=MPH * t3
+miles2=MPH * t2
+miles1=MPH * t1
+print('at',MPH,'miles per hour a car traveling for'
+      ,t1,",",t2,'and',t3,'hours will go',miles1, 
+      miles2,'and',miles3,'miles')
+
