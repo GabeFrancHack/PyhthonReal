@@ -1,0 +1,10 @@
+
+def f(kilometers, constant):
+    x=(kilometers*constant)
+    return(x)
+def main():
+    constant=.6214
+    kilometers=float(input('how many kilometers have you traveled'))
+    miles=f(kilometers, constant)
+    print(f'{kilometers} kilometers is equal to {miles} miles')
+main()

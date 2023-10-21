@@ -1,0 +1,25 @@
+#input is people and hotdog for people
+#The minimum number of packages of hot dogs required
+#• The minimum number of packages of hot dog buns required
+#• The number of hot dogs that will be left over
+# The number of hot dog buns that will be left over
+import math
+p=int(input('enter the amount of people attending:'))
+h=int(input('enter the amount of hotdogs per person:'))
+th=int(p*h)
+hp=int(10)
+bp=int(8)
+#min number of hotdogs
+thp =th /hp 
+x=math.ceil(thp)
+print (x)
+remainingh=th%hp
+tbp =th /bp
+y=math.ceil(tbp)
+print (y)
+remainingb=th%bp
+print()
+print('hot dog bun packs required:',y,)
+print('leftover buns:',remainingb,)
+print('hot dog packs required:',x,)
+print('leftover buns:',remainingh,)

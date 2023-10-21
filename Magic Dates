@@ -1,0 +1,10 @@
+#The date June 10, 1960, is special because when it is written in the following format, the month times the day equals the year:
+
+m=int(input('enter the month:'))
+d=int(input('enter the date:'))
+y=int(input('enter the last 2 digits of the year:'))
+print()
+if m*d==y:
+    print('this date is magic')
+elif m*d != y:
+    print('this date is not magic')

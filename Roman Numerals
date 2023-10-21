@@ -1,0 +1,27 @@
+#enter a number within the range of 1 through 10
+n=int(input('enter a number within the range of 1 through 10:'))
+if n<=10:
+    op=n
+    if op==1:
+        print('I')
+    elif op==2:
+        print('II')
+    elif op==3:
+        print('III')
+    elif op==4:
+        print('IV')
+    elif op==5:
+        print('V')
+    elif op==6:
+        print('VI')
+    elif op==7:
+        print('VII')
+    elif op==8:
+        print('VIII')
+    elif op==9:
+        print('IX')
+    elif op==10:
+        print('X')
+elif n>10:
+    op='ERROR'
+    print(op)

@@ -1,0 +1,16 @@
+#Starting number of organisms: 
+# Average daily increase: 
+#Number of days to multiply:
+#output is days and population
+
+import math
+i=int(input('starting number of organisms:'))
+r=int(input('average daily increase in percent:'))
+t=int(input('number of days to multiply:'))
+#I used the population growth rate formula????-
+#it made sense to me but I dont know if that is 
+# waht you are looking for
+for t in range(1,t+1):
+    popsize=i*(math.e)**((1+(.001*r))*t)
+    print('after',t,'days,the population is',popsize,)
+

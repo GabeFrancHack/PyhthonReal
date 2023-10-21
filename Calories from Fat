@@ -1,0 +1,17 @@
+
+#calories from fat = fat grams x 9
+#calories from carbs = carb grams x 4
+
+def main():
+    
+    def fat():
+        fg=float(input('enter fat grams:'))
+        calfat=fg*9
+        print(calfat)
+    fat()
+    def carbs():
+        cg=float(input('enter carb grams:'))
+        calcarb=cg*4
+        print(calcarb)
+    carbs()
+main()

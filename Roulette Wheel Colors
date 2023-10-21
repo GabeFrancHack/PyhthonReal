@@ -1,0 +1,46 @@
+#Pocket 0 is green.
+#• For pockets 1 through 10, the odd-numbered pockets are red and the even-numbered
+#pockets are black.
+#• For pockets 11 through 18, the odd-numbered pockets are black and the even-numbered
+#pockets are red.
+#• For pockets 19 through 28, the odd-numbered pockets are red and the even-numbered
+#pockets are black.
+#• For pockets 29 through 36, the odd-numbered pockets are black and the even-numbered
+#pockets are red.
+n=int(input('enter number 0-36:'))
+if n==0:
+    c='red'
+elif n<0:
+    if n%2:
+        c='black'
+    elif n%2:
+        c='red'
+elif n<=11:
+    if n%2:
+        c='red'
+    elif n%2:
+        c='black'
+elif n<=18:
+    if n%2:
+        c='black'
+    elif n%2:
+        c='red'
+elif n<=28:
+    if n%2:
+        c='red'
+    elif n%2:
+        c='black'
+elif n<=28:
+    if n%2:
+        c='black'
+    elif n%2:
+        c='red'
+elif n<=36:
+    if n%2:
+        c='black'
+    elif n%2:
+        c='red'
+elif n>36:
+    c='undetermined'
+ 
+print('the color is',c,)

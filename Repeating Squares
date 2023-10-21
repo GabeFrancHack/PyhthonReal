@@ -1,0 +1,21 @@
+##In this chapter, you saw an example of a loop that draws a square.
+ #Write a turtle graphics pro- gram that uses nested loops to 
+#draw 100 squares, to #create the design shown in Figure 4-13.
+
+import turtle
+turtle.speed(10)
+#changing base/height of square function
+#square function
+def square(b):
+    turtle.forward(b)
+    turtle.left(90)
+    turtle.forward(b)
+    turtle.left(90)
+    turtle.forward(b)
+    turtle.left(90)
+    turtle.forward(b)
+    turtle.left(90)
+for x in range(0,202,2):
+    square(x)
+
+turtle.exitonclick()

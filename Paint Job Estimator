@@ -1,0 +1,33 @@
+
+
+
+#A painting company has determined that for every 112 square feet of wall space, one gallon
+#of paint and eight hours of labor will be required. The company charges $35.00 per hour
+#for labor. Write a program that asks the user to enter the square feet of wall space to be
+#painted and the price of the paint per gallon. The program should display the following data:
+#• The number of gallons of paint required
+#• The hours of labor required
+#• The cost of the paint
+#• The cost labor
+#• The total cost of the paint job
+
+
+def main():
+    def factors():
+        space=float(input('square feet of room: '))
+        ppg=float(input('cost of paint: '))
+        gal=space/112
+        paintcost=gal*ppg
+        hourslabor=space/112*8
+        costlabor=35*hourslabor
+        return(gal,hourslabor,paintcost,costlabor)
+    gal,hourslabor,paintcost,costlabor=factors()
+    print(f'The number of gallons of paint required is{gal:.2f}')
+    print(f'The hours of labor required is{hourslabor:.2f}')
+    print(f'The cost of the paint is{paintcost:.2f}')
+    print(f'The cost of labor is{costlabor:.2f}')
+    print(f'the toal cost is{(costlabor+paintcost):.2f}')
+main()
+        
+    
+    

@@ -1,0 +1,6 @@
+#Nested Loops
+x='*'
+for row in range(0,7):
+    for col in range(7,row,-1):
+        print(x,end='')
+    print()

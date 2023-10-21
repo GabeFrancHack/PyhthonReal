@@ -1,0 +1,22 @@
+def f(x,list,big,):
+     x=list[0]
+     for x in list:
+         if x>big:
+             big=x
+     return (big)
+
+
+def main():
+     list=[]
+     y=1
+     while y != 8669:
+         z=int(input('enter a number(exit with 8669):'))
+         if z != 8669:
+             list.append(z)
+         else:
+             y=8669
+     x=0
+     big=list[0]
+     final=f(x,list,big,)
+     print (final)
+main()

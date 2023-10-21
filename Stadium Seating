@@ -1,0 +1,26 @@
+
+
+#There are three seating categories at a stadium. Class A seats cost $20, Class B seats cost
+#$15, and Class C seats cost $10. Write a program that asks how many tickets for each class
+#of seats were sold, then displays the amount of income generated from ticket sales.
+
+def main():
+    def A():
+        na=float(input('Class A seats:'))
+        pa=na*20
+        return(pa)
+    def B():
+        nb=float(input('Class B seats:'))
+        pb=nb*15
+        return(pb)
+    def C():
+        nc=float(input('Class C seats:'))
+        pc=nc*20
+        nc=pc/20
+        return(pc)
+    ta=A()
+    tb=B()
+    tc=C()
+    final=ta+tb+tc
+    print('the total amount earned is',final,'$,make it rain!')
+main()

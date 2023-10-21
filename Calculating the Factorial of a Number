@@ -1,0 +1,10 @@
+#factorialcalculator
+x=int(input('enter a positive whole number:'))
+
+if x<=0:
+    print('enter a valid number')
+elif x>0:
+    facto=1
+    for i in range(1,x+1):
+        facto=facto*i
+print('the factorial of,',x,'is',facto,)
